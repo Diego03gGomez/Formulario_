@@ -8,7 +8,7 @@
 </div>
 
 
-<div class="contenedor_registro">
+<div  class="contenedor_registro" >
     <div class="titulo_login">
     
     <h2>Welcome to <span>Megabot!</span></h2>
@@ -79,19 +79,19 @@
 <div class="campo">
     <h2>Email ID</h2>
     <i class="fa-solid fa-envelope email2"></i>
-<input type="text" placeholder="Enter your mail id">
+<input type="email" placeholder="Enter your mail id">
 </div>
 
 <div class="campo">
     <h2>Password</h2>
     <i class="fa-solid fa-lock candado1"></i>
-<input type="text" placeholder="Enter your passwords">
+<input type="password" placeholder="Enter your passwords">
 </div>
 
 <div class="campo">
     <h2>Confirm Password</h2>
     <i class="fa-solid fa-lock candado2"></i>
-<input type="text" placeholder="Enter your password">
+<input type="password" placeholder="Enter your password">
 </div>
 
 

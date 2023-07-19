@@ -160,7 +160,7 @@ color: white;
 .cont_continuar{
  /* background-color: blue;*/
   margin: auto;
-  width: 80%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -178,6 +178,7 @@ border-radius: 7px;
 border-color: rgba(255, 255, 255, 0.274);
 border-style: solid;
 gap: 10px;
+border-width: 1px;
 }
 .cont_explicacion h3 a{
   color:#3BEDB2;
@@ -262,8 +263,8 @@ border-radius: 7px;
 
 .email2{
   position: absolute;
-   top: 175px;
-  left: 7px;
+   top: 177px;
+  left: 9px;
   font-size: 20px;
   color: white;
 }
@@ -271,7 +272,7 @@ border-radius: 7px;
 .candado1{
   position: absolute;
   font-size: 20px;
-  top: 290px;
+  top: 293px;
   left: 8px;
   color: white;
 }
