@@ -1,0 +1,395 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+
+
+font-family: 'Inter', sans-serif;
+
+
+/*font-family: 'Montserrat', sans-serif;*/
+
+
+
+
+/*font-family: 'Roboto', sans-serif;*/
+background-image: url(https://themes.pixelstrap.net/mega_bot/assets/images/login-bg.jpg);
+}
+
+.cont_header{
+ /* background-color: brown;*/
+  margin: auto;
+  width: 80%;
+}
+
+.cont_header h1 img{
+  width: 20%;
+}
+
+
+.contenedor_registro{
+  background-color: rgba(58, 237, 177, 0.05);
+  margin: auto;
+  width: 40%;
+  border-radius: 15px;
+  padding: 5px 0;
+}
+
+.titulo_login{
+  text-align: center;
+  font-size: 25px;
+color: white;
+}
+
+
+  .titulo_login h2 span{
+    color: #3BEDB2;
+  }
+
+.cont_campos{
+ 
+  margin: auto;
+  width: 80%;
+  color: white;
+  position: relative;
+}
+
+.email{
+  width: 100%;
+  padding: 9px 40px;
+  font-size: 18px;
+  background-color: #415159;
+  color: white;
+  border-style: solid;
+  border-color: #415159;
+  border-radius: 5px;
+}
+
+.email:active{
+  border-color: #415159;
+}
+
+
+
+.password{
+  width: 100%;
+  padding: 9px 40px;
+  font-size: 18px;
+  font-size: 18px;
+  background-color: #415159;
+  color: white;
+  border-style: solid;
+  border-color: #415159;
+  border-radius: 5px;
+}
+
+
+.links{
+ /* background-color: red;*/
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links a{
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  border-color:#3BEDB2;
+  border-style: solid;
+  padding: 10px 50px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.correo{
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  top: 48px;
+  left: 10px;
+  
+}
+
+.candado{
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  top: 150px;
+  left: 10px;
+}
+
+
+.cont_olvido{
+ /* background-color: red;*/
+  margin:10px auto;
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cont_logear{
+  /*background-color: green;*/
+  margin:10px auto;
+  width: 80%;
+}
+
+.cont_logear button{
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color:#3BEDB2;
+  border-color:#3BEDB2;
+  border-style: solid;
+ 
+}
+
+.cont_explicacion{
+
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  color: white;
+}
+
+.cont_continuar{
+ /* background-color: blue;*/
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cont_continuar a{
+  cursor: pointer;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+padding: 10px 0;
+border-radius: 7px;
+border-color: rgba(255, 255, 255, 0.274);
+border-style: solid;
+gap: 10px;
+}
+.cont_explicacion h3 a{
+  color:#3BEDB2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cont_olvido a{
+  color:#3BEDB2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cont_logear button{
+  transition: all 0.90s;
+}
+
+.cont_logear button:hover{
+  cursor: pointer;
+  transition: all 0.90s;
+  background-color: #41515900;
+  color: #3BEDB2;
+  font-weight: bold;
+}
+
+
+
+.ocultar{
+  display: none;
+}
+
+.mostrar{
+  display: initial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ESTILOS PARA EL FORMULARIO DE SIGN UP*/
+
+
+.cont_campos2{
+  color: white;
+ /* background-color: red;*/
+  margin: auto;
+  width: 80%;
+  position: relative;
+}
+.cont_campos2 input{
+  padding: 10px 35px;
+  width: 100%;
+  font-size: 20px;
+  background-color: #415159;
+  color: white;
+  border-color: #415159;
+  border-style: solid;
+border-radius: 7px;
+}
+
+.user{
+  position: absolute;
+  top: 60px;
+  left: 7px;
+  font-size: 20px;
+  color: white;
+}
+
+.email2{
+  position: absolute;
+   top: 175px;
+  left: 7px;
+  font-size: 20px;
+  color: white;
+}
+
+.candado1{
+  position: absolute;
+  font-size: 20px;
+  top: 290px;
+  left: 8px;
+  color: white;
+}
+
+.candado2{
+  position: absolute;
+  bottom: 15px;
+  left: 8px;
+  font-size: 20px;
+color: white;
+}
+
+.cont_sign{
+ /* background-color: blue;*/
+  margin: 30px auto;
+  width: 80%;
+}
+
+.cont_sign button{
+  transition: all 0.50s;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #3BEDB2;
+  border-color: #3BEDB2;
+  border-style: solid;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.cont_sign button:hover{
+  cursor: pointer;
+  transition: all 0.50s;
+  background-color: #41515900;
+  color: #3BEDB2;
+}
+
+
+
+.des2{
+  text-align: center;
+  color: white;
+}
+.des2 h4 a{
+  color: #3BEDB2;
+  text-decoration: none;
+}
+
+
+::-webkit-scrollbar {
+  width: 12px;
+  
+ 
+background-color: #415159;
+}
+
+
+
+/* Estilos para Firefox */
+/* Puedes ajustar el ancho de la barra de desplazamiento y el color de fondo según tus preferencias */
+
+/* Estilos generales */
+
+
+
+
+::-moz-scrollbar-thumb {
+
+
+background-color: #3BEDB2;
+}
+
+
+
+::-moz-scrollbar-track {
+
+
+background-color: #415159;
+}
+
+
+
+
+
+
+
+@media (max-width:1024px){
+  .contenedor_registro{
+    width: 75%;
+  }
+}
+
+
+@media (max-width:780px){
+.contenedor_registro{
+  width: 95%;
+}
+
+
+.cont_header{
+  text-align: center;
+}
+
+.cont_header h1 img{
+  width: 50%;
+  
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
