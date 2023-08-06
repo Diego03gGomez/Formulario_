@@ -381,6 +381,13 @@ background-color: #415159;
 }
 
 
+.links a{
+  width: 59%;
+  margin: auto;
+  text-align: center;
+  padding: 10px 0;
+}
+
 
 
 
