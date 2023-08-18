@@ -368,6 +368,7 @@ background-color: #415159;
 @media (max-width:780px){
 .contenedor_registro{
   width: 95%;
+  margin: 60px auto;
 }
 
 
@@ -377,6 +378,7 @@ background-color: #415159;
 
 .cont_header h1 img{
   width: 50%;
+  display: none;
   
 }
 
